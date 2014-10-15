@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/awale/!svn/ver/16/trunk/res/layout
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/awale/!svn/ver/13/trunk/res/layout/main.xml
+END
+awale_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/awale/!svn/ver/13/trunk/res/layout/awale_layout.xml
+END
+rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/awale/!svn/ver/13/trunk/res/layout/rules.xml
+END
+options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/awale/!svn/ver/5/trunk/res/layout/options.xml
+END
+dialog_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/awale/!svn/ver/12/trunk/res/layout/dialog_layout.xml
+END
+credits.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/awale/!svn/ver/16/trunk/res/layout/credits.xml
+END

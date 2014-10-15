@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/two_tigers">
+	<TextView android:id="@+id/copyright" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true" android:text="Asigbe 2009"
+		android:layout_marginBottom="@dimen/credits_margin"
+		android:layout_marginTop="@dimen/credits_margin" android:textColor="@color/credits_color"
+		android:textSize="@dimen/credits_font_size" />
+	<TextView android:id="@+id/zstar" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_above="@+id/copyright" android:text="Zstar"
+		android:layout_marginBottom="@dimen/credits_margin"
+		android:layout_marginTop="@dimen/credits_margin" android:textColor="@color/credits_color"
+		android:textSize="@dimen/credits_font_size" />
+	<TextView android:id="@+id/dai" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_above="@+id/zstar" android:text="Dai"
+		android:layout_marginBottom="@dimen/credits_margin"
+		android:layout_marginTop="@dimen/credits_margin" android:textColor="@color/credits_color"
+		android:textSize="@dimen/credits_font_size" />
+</RelativeLayout>

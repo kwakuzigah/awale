@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AwaleTheme" parent="@android:Theme.NoTitleBar.Fullscreen">
+		<item name="android:alertDialogStyle">@style/awaleAlertDialogStyle</item>
+		<item name="android:buttonStyle">@style/awaleButton</item>
+	</style>
+	<style name="awaleAlertDialogStyle" parent="android:style/AlertDialog">
+		<item name="android:fullDark">@drawable/popup_full_dark</item>
+		<item name="android:topDark">@drawable/popup_top_dark</item>
+		<item name="android:centerDark">@drawable/popup_center_dark</item>
+		<item name="android:bottomDark">@drawable/popup_bottom_dark</item>
+		<item name="android:fullBright">@drawable/popup_full_dark</item>
+		<item name="android:topBright">@drawable/popup_top_dark</item>
+		<item name="android:centerBright">@drawable/popup_center_dark</item>
+		<item name="android:bottomBright">@drawable/popup_bottom_dark</item>
+		<item name="android:bottomMedium">@drawable/popup_bottom_dark</item>
+		<item name="android:centerMedium">@drawable/popup_center_dark</item>
+	</style>
+	<style name="awaleButton" parent="android:style/Widget.Button">
+		<item name="android:background">@drawable/btn_default</item> 
+		<item name="android:textColor">@color/text_button_color</item>
+	</style>
+</resources>

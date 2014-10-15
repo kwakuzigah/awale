@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Awale</string>
+	<string name="new_game">NEW GAME</string>
+	<string name="rules">RULES</string>
+	<string name="options">OPTIONS</string>
+	<string name="credits">CREDITS</string>
+	<string name="difficulty">Difficulty : </string>
+	<string name="easy">Easy</string>
+	<string name="medium">Medium</string>
+	<string name="hard">Hard</string>
+	<string name="player_1">Player 1 :</string>
+	<string name="player_2">Player 2 :</string>
+	<string name="player_1_turn">PLAYER 1 TURN</string>
+	<string name="player_2_turn">PLAYER 2 TURN</string>
+	<string name="ok">Ok</string>
+	<string name="the_game_is_over">"The game is over."</string>
+	<string name="game_over">"Game Over"</string>
+	<string name="is_starving_the_opponent">"The opponent is starving.\nYou must choose a
+		case which gives him at least one seed."</string>
+	<string name="will_starve_the_opponent">"This move will starve the opponent.\nYou must choose
+		another case."</string>
+	<string name="you_win">"You win !!!"</string>
+	<string name="you_lose">"You lose !!!"</string>
+	<string name="seeds">seeds</string>
+	<string name="opponent">opponent</string>
+	<string name="computer_score">"Computer score :"</string>
+	<string name="your_score">"Your score :"</string>
+	<string name="it_is_a_draw">"It\'s a draw"</string>
+	<string name="wrong_move">"Wrong move"</string>
+	<string name="game_still_running">"Game still running"</string>
+	<string name="demo_version">"Demo version"</string>
+	<string name="i_am_lost">"I am lost.\nYour too strong, I give up for now!"</string>
+	<string name="rules_detail">"
+Object :\n\n
+
+
+The object of the game is to capture more seeds than one's opponent.
+
+
+Players take turns moving the seeds. On a turn, a player chooses one of the six houses under his or her control. 
+The player removes all seeds from that house, and distributes them, dropping one in each house counter-clockwise from this house, in a process called sowing. 
+Seeds are not distributed into the end scoring houses, nor into the house drawn from. That is, the starting house is left empty.
+
+
+Capturing :
+
+
+After a turn, if the last seed was placed into an opponent's house that brought its total to two or three, all the seeds in that house are captured and placed in the player's scoring house. 
+If the previous-to-last seed also brought an opponent's house to two or three, these are captured as well, and so on. 
+
+
+Winning :
+
+
+The game is over when one player has captured 25 or more seeds, or each player has taken 24 seeds (draw). 
+If both players agree that the game has been reduced to an endless cycle, each player captures the seeds on their side of the board.
+"
+</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background">
+
+	<TextView android:id="@+id/awale_title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:text="AWALE" android:textSize="@dimen/title_font_size"
+		android:layout_marginBottom="@dimen/title_margin"
+		android:layout_marginTop="@dimen/title_margin" android:textColor="@color/awale_title_color" />
+	<RelativeLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@+id/awale_title">
+		<Button android:id="@+id/new_game_button" android:text="@string/new_game"
+			android:textSize="@dimen/button_font_size" android:layout_width="@dimen/button_width"
+			android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+			android:background="@drawable/button_selector" android:textColor="@color/awale_button_text_color" />
+		<!--
+			<Button android:id="@+id/options_button"
+			android:text="@string/options"
+		-->
+		<!--
+			android:layout_width="@dimen/button_width"
+			android:layout_height="wrap_content"
+		-->
+		<!--			android:layout_below="@id/new_game_button"-->
+		<!--			android:layout_centerHorizontal="true" />-->
+		<Button android:id="@+id/rules_button" android:text="@string/rules"
+			android:textSize="@dimen/button_font_size" android:layout_width="@dimen/button_width"
+			android:layout_height="wrap_content" android:layout_below="@+id/new_game_button"
+			android:layout_centerHorizontal="true" android:background="@drawable/button_selector"
+			android:textColor="@color/awale_button_text_color" />
+		<Button android:id="@+id/credits_button" android:text="@string/credits"
+			android:textSize="@dimen/button_font_size" android:layout_width="@dimen/button_width"
+			android:layout_height="wrap_content" android:layout_below="@+id/rules_button"
+			android:layout_centerHorizontal="true" android:background="@drawable/button_selector"
+			android:textColor="@color/awale_button_text_color" />
+	</RelativeLayout>
+	<TextView android:layout_width="wrap_content" android:id="@+id/demo_version"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true" android:text="@string/demo_version" />
+</RelativeLayout>

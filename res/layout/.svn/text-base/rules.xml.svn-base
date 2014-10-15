@@ -1,0 +1,15 @@
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/background_elephant">
+	<TextView android:id="@+id/awale_rules" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:text="@string/rules" android:textSize="@dimen/title_font_size"
+		android:layout_marginBottom="@dimen/title_margin"
+		android:layout_marginTop="@dimen/title_margin" android:textColor="@color/awale_title_color" />
+	<ScrollView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@+id/awale_rules">
+		<TextView android:text="@string/rules_detail" android:id="@+id/rules"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@color/rules_color" ></TextView>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="player_1">#ff4444</color>
+	<color name="player_2">#3f64dc</color>
+	<color name="text_button_color">#032901</color>
+	<color name="awale_button_text_color">#dbc98e</color>
+	<color name="awale_title_color">#000000</color>
+	<color name="credits_color">#FFFFFF</color>
+	<color name="rules_color">#FFFFFF</color>
+</resources>

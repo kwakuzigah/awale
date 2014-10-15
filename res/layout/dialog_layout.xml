@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:padding="10dip">
+	<TextView android:id="@+id/textView_dialog"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:text="test"
+		android:paddingBottom="15dip" android:gravity="center"/>
+	<Button android:id="@+id/button_dialog" android:layout_below="@id/textView_dialog"
+		android:layout_width="100dip" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:text="@string/ok" />
+</RelativeLayout>

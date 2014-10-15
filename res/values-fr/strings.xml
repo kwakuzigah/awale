@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Awale</string>
+	<string name="new_game">NOUVELLE PARTIE</string>
+	<string name="rules">REGLES</string>
+	<string name="options">OPTIONS</string>
+	<string name="credits">CREDITS</string>
+	<string name="difficulty">Difficulté : </string>
+	<string name="easy">Facile</string>
+	<string name="medium">Moyen</string>
+	<string name="hard">Difficile</string>
+	<string name="player_1">Joueur 1 :</string>
+	<string name="player_2">Joueur 2 :</string>
+	<string name="player_1_turn">TOUR DU JOUEUR 1 </string>
+	<string name="player_2_turn">TOUR DU JOUEUR 2</string>
+	<string name="ok">Ok</string>
+	<string name="the_game_is_over">"La partie est terminée."</string>
+	<string name="game_over">"Game Over"</string>
+	<string name="is_starving_the_opponent">"L\'adversaire est affamé.\nVous devez choisir un coup qui lui donne au moins une graine."</string>
+	<string name="will_starve_the_opponent">"Ce coup va affamé l\'adversaire.\nVous devez choisir un autre coup."</string>
+	<string name="you_win">"Vous avez gagné !!!"</string>
+	<string name="you_lose">"Vous avez perdu !!!"</string>
+	<string name="seeds">graines</string>
+	<string name="opponent">adversaire</string>
+	<string name="computer_score">"Score de l\'ordinateur :"</string>
+	<string name="your_score">"Votre score :"</string>
+	<string name="it_is_a_draw">"C\'est une égalité"</string>
+	<string name="wrong_move">"Mouvement non autorisé"</string>
+	<string name="game_still_running">"Partie en cours"</string>
+	<string name="demo_version">"Version demo"</string>
+	<string name="i_am_lost">"Je suis perdu.\nVous êtes trop fort, j\'abandonne pour cette fois!"</string>
+	<string name="rules_detail">"
+But du jeu :\n\n
+
+
+Le but du jeu est de capturer plus de graines que son adversaire.
+
+
+Chaque jour distribue les graines à tour de rôle. A chaque tour, un joueur choisis une des six cases de son camp. 
+Le joueur enlève toutes les graines de cette cases et les distribue dans les cases adjacentes une par une dans le sens inverse des aiguilles d\'une montre. 
+Les graines ne sont pas distribuées dans la case initiale. La case initiale reste donc vide.
+
+
+La capture :
+
+
+Après chaque tour, si la dernière graine est placée dans le camp adverse et que le total des graines de cette case est égal à 2 ou 3, toutes les graines de cette case sont capturées.
+Les cases adversaires qui précèdent immédiatement la case capturée sont elles aussi capturées.
+
+Pour gagner :
+
+
+Le vainqueur est celui qui a capturé 25 graines ou plus ou lorsque chaque joueur a capturé 24 graines.
+Si la partie commence à rentrer dans un cycle infini, il est possible de l\'arrêter avec le bouton stop."
+</string>
+</resources>
